@@ -2,37 +2,51 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pink-hover {
+  transition: all 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pink-hover:hover {
+  /* background-color: #ff69b4 !important ;  */
+   background-color: red !important ;
+  color: white !important;
+  border-color: red  !important;
 }
 
-.App-header {
-  background-color: #282c34;
+
+.whole_bg{
+  background-color:rgb(254, 244, 231);
   min-height: 100vh;
+}
+
+/* Base card */
+.gift-card {
+  width: 150px;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #f7cfe0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+/* Image inside card */
+ .gift-img {
+  width: 80px;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Hover effects */
+.gift-card:hover {
+  transform: translateY(-8px) scale(1.05); /* card pops up */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* stronger shadow */
+  background: #ffecf1; /* slightly lighter/pinkish */
+}
+
+.gift-card:hover .gift-img {
+  transform: rotate(-5deg) scale(1.1); /* playful tilt + grow */
 }
