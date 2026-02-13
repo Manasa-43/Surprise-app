@@ -1,6 +1,4 @@
-import gift1 from "../assets/img1.png";
-import gift2 from "../assets/img2.png";
-import gift3 from "../assets/img3.png";
+
 import pic1 from "../assets/Pic1.jpeg";
 import pic2 from "../assets/Pic2.jpeg";
 import pic3 from "../assets/Pic12.jpeg";
@@ -11,7 +9,7 @@ import pic7 from "../assets/Pic7.jpeg";
 import pic8 from "../assets/Pic8.jpeg";
 import pic9 from "../assets/Pic13.jpeg";
 
-import { useState } from "react";
+
 import { useNavigate } from "react-router-dom";
 function Gift3() {
   const navigate = useNavigate();

@@ -1,4 +1,4 @@
-import conf from "../assets/conf_img.png";
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
@@ -7,22 +7,7 @@ function Gift2() {
   const goToGift = () => {
     navigate("/gift");
   };
-  const [count, setCount] = useState(1);
-  const [update, setUpdate] = useState(null);
-  const warningsList = [
-    "Neptune aa 😡",
 
-    "Correct, You're so smart ,next one😁",
-
-    "Baaga alochinchi cheppu 🙄",
-  ];
-  const warningsList1 = [
-    "Ohoo, please try again  😏",
-
-    "Heheh, JUST KIDDING Premuuu😁",
-
-    " Adi kadamma🙄",
-  ];
 
 
   return (

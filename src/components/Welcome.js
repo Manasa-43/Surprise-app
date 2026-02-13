@@ -1,4 +1,4 @@
-import duduImg from '../assets/dudu_img1.png';
+
 import curious from '../assets/curious_dudu.png'
 import { useNavigate } from 'react-router-dom';
 function Welcome() {

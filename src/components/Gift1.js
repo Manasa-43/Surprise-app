@@ -1,12 +1,10 @@
-import conf from "../assets/conf_img.png";
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../App.css";
 function Gift1() {
   const navigate = useNavigate();
-  const goToGift = () => {
-    navigate("/gift");
-  };
+
   const [count, setCount] = useState(1);
   const [update, setUpdate] = useState(null);
   const warningsList = [

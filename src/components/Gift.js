@@ -1,7 +1,6 @@
 import gift1 from "../assets/img1.png";
 import gift2 from "../assets/img2.png";
 import gift3 from "../assets/img3.png";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 function Gift() {
         const navigate = useNavigate()

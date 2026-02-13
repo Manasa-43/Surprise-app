@@ -1,5 +1,4 @@
 import conf from "../assets/conf_img.png";
-import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 function Confirmation() {
     const navigate = useNavigate()

@@ -1,11 +1,7 @@
 import loveImg from '../assets/love_img.png';
-import curious from '../assets/curious_dudu.png'
 import { useNavigate } from 'react-router-dom';
 function FinalPage() {
      const navigate = useNavigate()
-    const goToQuestion = () =>{
-       navigate('/question')
-    }
   return (
     <div
       className="d-flex flex-column align-items-center justify-content-center"
