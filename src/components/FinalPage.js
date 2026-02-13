@@ -1,7 +1,7 @@
 import loveImg from '../assets/love_img.png';
-import { useNavigate } from 'react-router-dom';
+
 function FinalPage() {
-     const navigate = useNavigate()
+   
   return (
     <div
       className="d-flex flex-column align-items-center justify-content-center"
